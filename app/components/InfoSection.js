@@ -27,21 +27,21 @@ export default function InfoSection() {
         </div>
         <div className="md:flex flex-1">
           <div className="md:w-[50%] m-3 p-3">
-            <div className="h-[50vh] m-3 shadow-2xl">
+            <div className="h-[40vh] md:h-[50vh] m-3 shadow-2xl">
               <h1 className={`text-2xl  ${ubu.className} hover:text-[#6F5507] m-4`}>Event Planning & Coordination</h1>
               <p className={`text-[15px] m-4 text-gray-900`}>Provides end-to-end planning for various events, including corporate meetings, weddings, college fests, and private parties. Users can customize event plans, timelines, and requirements.</p>
             </div>
-            <div className="h-[50vh] m-3 shadow-2xl">
+            <div className="h-[30vh] md:h-[50vh] m-3 shadow-2xl">
               <h1 className={`text-2xl  ${ubu.className} hover:text-[#6F5507] m-4`}>Custom Event Design & Themes</h1>
               <p className={`text-[15px] m-4 text-gray-900`}>Offers personalized event themes, décor suggestions, and digital invitations to enhance the event experience.</p>
             </div>
           </div>
-          <div className="md:w-[50%] m-3 p-3 mt-30">
-            <div className="h-[50vh] m-3 shadow-2xl">
+          <div className=" md:w-[50%] m-3 p-3 md:mt-30">
+            <div className="h-[40vh] md:h-[50vh] m-3 shadow-2xl">
               <h1 className={`text-2xl  ${ubu.className} hover:text-[#6F5507] m-4`}>Venue & Vendor Booking</h1>
               <p className={`text-[15px] m-4 text-gray-900`}>Offers a directory of venues, caterers, photographers, decorators, and entertainers, allowing users to compare prices, check availability, and book services directly through the platform.</p>
             </div>
-            <div className="h-[50vh] m-3 shadow-2xl">
+            <div className="h-[30vh] md:h-[50vh] m-3 shadow-2xl">
               <h1 className={`text-2xl  ${ubu.className} hover:text-[#6F5507] m-4`}>Logistics & On-Site Support </h1>
               <p className={`text-[15px] m-4 text-gray-900`}>Assists in handling transportation, stage setup, lighting, sound systems, and security arrangements for events of any scale, ensuring smooth execution.</p>
             </div>
